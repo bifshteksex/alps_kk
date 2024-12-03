@@ -1,0 +1,27 @@
+.crypt-email:after { 
+    content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
+}
+
+*::-webkit-input-placeholder {
+    color: #052229;;
+    opacity: 1;
+  }
+  
+  *:-moz-placeholder {
+    color: #052229;;
+    opacity: 1;
+  }
+  
+  *::-moz-placeholder {
+    color:  #052229;;
+    opacity: 1;
+  }
+  
+  *:-ms-input-placeholder {
+    color: rgba(72, 68, 62, 0.76);
+    opacity: 1;
+  }
+
+  .b-index._active .b-index-content {
+    background: #000000;
+  }
